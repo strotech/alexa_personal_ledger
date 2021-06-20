@@ -12,3 +12,7 @@ The role should have the following policies:
 2. PersonalLedger_Alexa_Skill (Custom - refer the IAM roles folder)
 
 For the trust relationships, refer the IAM roles folder.
+  
+List of principles
+--------------------
+https://gist.github.com/shortjared/4c1e3fe52bdfa47522cfe5b41e5d6f22
