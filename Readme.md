@@ -16,3 +16,7 @@ For the trust relationships, refer the IAM roles folder.
 List of principles
 --------------------
 https://gist.github.com/shortjared/4c1e3fe52bdfa47522cfe5b41e5d6f22
+  
+Points to note
+-------------------
+  1. The table name is referenced directly in the lambda code
