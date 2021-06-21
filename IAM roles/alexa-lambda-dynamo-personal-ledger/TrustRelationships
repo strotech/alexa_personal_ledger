@@ -6,19 +6,7 @@
       "Effect": "Allow",
       "Principal": {
         "Service": "events.amazonaws.com",
-        "AWS": [
-          "arn:aws:iam::465392140585:root",
-          "arn:aws:sts::706769745920:assumed-role/VoiceHubSSORole/VoiceHubSSORole"
-        ]
-      },
-      "Action": "sts:AssumeRole"
-    },
-    {
-      "Sid": "",
-      "Effect": "Allow",
-      "Principal": {
-        "AWS": "arn:aws:sts::465392140585:assumed-role/alexa-lambda-dynamo-personal-ledger/PersonalLedgerLambda",
-        "Service": "events.amazonaws.com"
+        "AWS": "arn:aws:sts::465392140585:assumed-role/alexa-lambda-dynamo-personal-ledger/PersonalLedgerLambda"
       },
       "Action": "sts:AssumeRole"
     },
@@ -39,17 +27,10 @@
       "Action": "sts:AssumeRole"
     },
     {
-      "Effect": "Allow",
-      "Principal": {
-        "AWS": "arn:aws:iam::706769745920:role/AlexaHostedSkillLambdaRole"
-      },
-      "Action": "sts:AssumeRole"
-    },
-    {
       "Sid": "",
       "Effect": "Allow",
       "Principal": {
-        "Service": "cloudwatch-crossaccount.amazonaws.com"
+        "AWS": "arn:aws:iam::706769745920:role/AlexaHostedSkillLambdaRole"
       },
       "Action": "sts:AssumeRole"
     }
